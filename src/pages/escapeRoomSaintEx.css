@@ -1,4 +1,5 @@
 .main_background{
+    position: relative;
     width: 100vw;
     min-height: 100vh;
     background-color: var(--background-color);
@@ -39,9 +40,8 @@
     
 }
 
-
-
 .input_password::placeholder{
     color: whitesmoke;
     opacity: 0.8;
 }
+
