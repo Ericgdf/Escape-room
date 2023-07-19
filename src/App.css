@@ -11,11 +11,16 @@
 html{
   font-family: 'Cigra';
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 500;
   color: var(--text-color) ;
 }
 
 :root{
   --background-color : #222727;
+  --text-color-darken : hsl(13, 54%, 60%);
   --text-color : #E1A99A;
+  --text-color-very-light : hwb(13 92% 2%);
+  --secondary-color : #C99E67;
+  --darken-secondary-color : #635036;
+
 }
