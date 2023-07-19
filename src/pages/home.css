@@ -1,0 +1,23 @@
+.home_background{
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.home_title{
+    font-size: 3em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.tarot_card{
+    height: 15em;
+    margin-left: 3em;
+    box-shadow: 1px 1px 11px 1px ;
+
+}

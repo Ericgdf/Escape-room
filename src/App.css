@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'cigra'; /* Remplacez par le nom que vous souhaitez utiliser pour votre police */
+  src: url('../font/Cigra\ Free\ Demo.ttf'); /* Remplacez le chemin par le chemin vers votre fichier de police */
+}
+
+*{
+  margin: 0;
+  
+}
+
+html{
+  font-family: 'Cigra';
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--text-color) ;
+}
+
+:root{
+  --background-color : #222727;
+  --text-color : #E1A99A;
+}
