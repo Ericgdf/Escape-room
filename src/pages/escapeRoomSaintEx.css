@@ -1,0 +1,47 @@
+.main_background{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+
+}
+.img_contener{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_eyes{
+    height: 17em;
+}
+
+.nothing_important{
+    color: var(--background-color);
+    font-size: 2em;
+}
+
+.sentence_enigme{
+    font-size: 4em;
+}
+
+.input_password{
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: var(--darken-secondary-color);
+    border: 1px solid var(--darken-secondary-color);
+    color: white;
+    
+}
+
+
+
+.input_password::placeholder{
+    color: whitesmoke;
+    opacity: 0.8;
+}
