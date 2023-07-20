@@ -1,6 +1,6 @@
 .main_background_grid {
   min-height: 100vh;
-  background-image: url("../public/img/grain.png");
+  background-image: url("../img/grain.png");
   display: flex;
   flex-direction: column;
   align-items: center;
