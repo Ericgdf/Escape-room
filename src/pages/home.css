@@ -28,3 +28,16 @@
 }
 
 
+@media (max-width : 700px) {
+
+    .home_background{
+        padding-top: 2em;
+    }
+
+    .tarot_card_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
