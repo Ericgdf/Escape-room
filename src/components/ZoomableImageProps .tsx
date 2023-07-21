@@ -7,6 +7,7 @@ interface ZoomableImageProps {
   height: number;
   zoomBubbleSize?: number;
   zoom: number;
+  filter: string;
 }
 
 const ZoomableImage: React.FC<ZoomableImageProps> = ({
@@ -15,6 +16,7 @@ const ZoomableImage: React.FC<ZoomableImageProps> = ({
   height,
   zoom =2,
   zoomBubbleSize = 30,
+  filter = "invert(75%)"
 }) => {
   const [isZoomed, setIsZoomed] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -50,8 +52,6 @@ const ZoomableImage: React.FC<ZoomableImageProps> = ({
         width={width}
         height={height}
         style={{
-          width: `${width}px`,
-          height: `${height}px`,
           zIndex: 2
         }}
       />
@@ -66,6 +66,7 @@ const ZoomableImage: React.FC<ZoomableImageProps> = ({
             width: `${zoomBubbleSize}px`,
             height: `${zoomBubbleSize}px`,
             backgroundPosition: `-${mousePosition.x *zoom }px -${mousePosition.y *zoom}px`,
+            filter: `${filter}`,
             
           }}
         />

@@ -1,0 +1,19 @@
+.main_background.mystery{
+    padding: 2em;
+}
+
+.citation{
+    font-family: 'Trebuchet MS';
+}
+
+.section_img{
+    display: flex;
+    justify-content: center;
+}
+
+.mystery_background{
+    text-align: center;
+    width: 80%;
+    font-size: 2em;
+}
+
