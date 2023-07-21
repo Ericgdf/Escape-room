@@ -1,8 +1,8 @@
 import './home.css'
 import VanillaTilt from 'vanilla-tilt';
-import card1 from '../assets/img/card1.png'
-import card2 from '../assets/img/card2.png'
-import card3 from '../assets/img/card3.png'
+import card1 from '../assets/img/card1.svg'
+import card2 from '../assets/img/card2.svg'
+import card3 from '../assets/img/card3.svg'
 import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 

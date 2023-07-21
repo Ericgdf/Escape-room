@@ -17,3 +17,8 @@
     font-size: 2em;
 }
 
+@media (max-width: 500 ) {
+    .section_img{
+        flex-direction: column;
+    }
+}
