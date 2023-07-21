@@ -35,9 +35,12 @@ const EscapeRoomZoom = () => {
   }, [password])
 
   return (
-    <div className="main_background mystery">
-      <Chronometre setFinalTime={setFinalTime} playerWin={playerWin}/>
+    <>
       {playerWin ? <PopUpVictory finaleTime={finaleTime}/> : null}
+    <div className="main_background mystery">
+      
+      <Chronometre setFinalTime={setFinalTime} playerWin={playerWin}/>
+      
       <div className="mystery_background">
       <div className="section_img">
       <ZoomableImage src={cristaux} width={200} height={200} zoomBubbleSize={100} zoom={9} filter={''} />
@@ -63,6 +66,7 @@ const EscapeRoomZoom = () => {
       />
       
     </div>
+    </>
   );
 };
 
