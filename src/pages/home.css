@@ -1,5 +1,5 @@
 .home_background{
-    background-image: url('../public/img/grain.png');
+    background-image: url('../img/grain.png');
     min-height: 100vh;
     width: 100vw;
     display: flex;

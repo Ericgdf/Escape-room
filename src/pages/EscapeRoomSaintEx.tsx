@@ -1,6 +1,6 @@
 import { useState, ChangeEvent, useEffect, KeyboardEvent } from 'react';
 import './escapeRoomSaintEx.css'
-import eyes from '../assets/img/eyes.png'
+import eyes from '../assets/img/eyes.svg'
 import Chronometre from '../components/Chronometre';
 import PopUpVictory from '../components/PopUpVictory';
 

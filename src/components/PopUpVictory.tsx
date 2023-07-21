@@ -14,7 +14,13 @@ const PopUpVictory: React.FC<popUpVictoryProps> = ({finaleTime}) => {
   const seconde = finaleTime.split(':')[1]
 
     useEffect(() => {
-        confetti()
+        confetti({
+          zIndex : 30000,
+          particleCount : 100,
+          spread : 60,
+
+        }
+        )
     },[])
 
   return (

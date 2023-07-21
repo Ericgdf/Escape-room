@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ZoomableImage.css'; // Fichier CSS pour les styles personnalisés du composant
+import './zoomableImage.css'; 
 
 interface ZoomableImageProps {
   src: string;

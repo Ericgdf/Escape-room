@@ -1,7 +1,7 @@
 .main_background{
     position: relative;
     min-height: 100vh;
-    background-image: url('../public/img/grain.png');
+    background-image: url('../img/grain.png');
     display: flex;
     align-items: center;
     justify-content: center;

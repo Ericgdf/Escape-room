@@ -3,7 +3,10 @@
 }
 
 .citation{
+    margin: 2em 0;
     font-family: 'Trebuchet MS';
+    font-size: 0.6em;
+    font-weight: 100;
 }
 
 .section_img{
@@ -12,13 +15,65 @@
 }
 
 .mystery_background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     width: 80%;
     font-size: 2em;
 }
 
-@media (max-width: 500 ) {
+
+.zoom_range_container{
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    width : 15em
+}
+
+.input_section{
+    display: flex;
+    justify-content: center;
+    gap : 1em
+
+}
+
+.zoom_range_min_max{
+    font-size: 0.5em;
+}
+
+input[type="range"] {
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 30%;
+    height: 10px;
+    background-color: whitesmoke; 
+    border-radius: 5px; 
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 50%; 
+    cursor: pointer; 
+  }
+
+  @media (max-width: 500px ) {
+  
     .section_img{
         flex-direction: column;
     }
+
+    
 }
+  
+
+
+ 
+  
+
